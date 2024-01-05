@@ -1,0 +1,38 @@
+Docker sdm
+
+1.create web folder.
+2.In web folder==>create index.html file
+		     server.js file	(copy code from repo)
+		    Dockerfile file
+For Local Host
+
+1.in web folder
+	1.open terminal==>
+	2.npm init press enter until get yes
+	3.npm install
+	4.npm install express
+	5.To run=>node server.js
+To Push above on git
+1.Go to web folder
+2.open gitbash
+3.git clone
+4.folder created
+5.put all filelike server,index,docker in cloned folder
+6.git add .
+7.git commit -m "msg"
+8.git push
+
+FOR AWS
+
+1.create instance
+2.set inbound rule
+3.connect
+4.sudo apt update
+5.git clone 
+6.go to cloned folder
+7.sudo apt install docker.io
+8.build image
+	1.sudo docker build  -t shubham .
+	2.To run
+	    sudo docker run -d -p 8000:8000 shubham
+	3.copy Ip and add :8000
